@@ -28,7 +28,7 @@ export const HeaderSection = () => {
   }, []);
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full ">
       {/* هدر */}
       <div
         className={`fixed top-0 left-0 w-full z-20 transition-all duration-700
@@ -58,7 +58,7 @@ export const HeaderSection = () => {
           </h1>
 
           {/* ناوبری */}
-          <nav className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8 mt-4 sm:mt-0">
+          <nav className="flex items-center gap-4 sm:gap-8 mt-4 sm:mt-0">
             {navItems.map((item) => (
               <a
                 key={item}
