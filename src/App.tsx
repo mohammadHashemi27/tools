@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="relative">
         <Header />
-        <main className="relative -mt-120   ">
+        <main className="relative -mt-130   ">
           <Main />
         </main>
         <footer className="relative -mt-25   ">
